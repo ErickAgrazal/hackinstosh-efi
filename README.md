@@ -6,6 +6,6 @@ This is EFI folder for my personal Hackintosh.
 - Motherboard: Asus Z390-A Prime
 - Graphics: Sapphire Nitro+ RX580 8Gb.
 
-# Compile AML
+## Compile AML
 To compile dsl's:
 ```./Tools/MaciASL/Dist/iasl-stable SSDT/<filename>.dsl```
