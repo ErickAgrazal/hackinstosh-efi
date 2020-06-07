@@ -6,6 +6,38 @@
 	<dict>
 		<key>Add</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Allows for native CPU power management on Haswell and newer.</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PLUG.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Hides the Embedded controller and creates a fake one for macOS, *needed for all Catalina users and recommended for other versions of macOS. </string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-EC-USBX.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>This is the 300 series RTC patch, required for most B360, B365, H310, H370, Z390 and some Z370 boards which prevent systems from booting macOS.</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-AWAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>So true 300 series motherboards(non-Z370) don't declare the FW chip as MMIO in ACPI and so XNU ignores the MMIO region declared by the UEFI memory map.</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PMC.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
