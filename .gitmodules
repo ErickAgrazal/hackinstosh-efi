@@ -1,0 +1,6 @@
+[submodule "Tools/GenSMBIOS"]
+	path = Tools/GenSMBIOS
+	url = git@github.com:corpnewt/ProperTree.git
+[submodule "Tools/ProperTree"]
+	path = Tools/ProperTree
+	url = git@github.com:corpnewt/ProperTree.git
