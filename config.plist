@@ -791,17 +791,8 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>AudioDxe.efi</string>
-			<string>CrScreenshotDxe.efi</string>
-			<string>HiiDatabase.efi</string>
-			<string>NvmExpressDxe.efi</string>
-			<string>OpenCanopy.efi</string>
+			<string>HFSPlus-2.efi</string>
 			<string>OpenRuntime.efi</string>
-			<string>OpenUsbKbDxe.efi</string>
-			<string>Ps2KeyboardDxe.efi</string>
-			<string>Ps2MouseDxe.efi</string>
-			<string>UsbMouseDxe.efi</string>
-			<string>XhciDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
