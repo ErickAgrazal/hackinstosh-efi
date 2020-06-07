@@ -7,3 +7,6 @@
 [submodule "Tools/MaciASL"]
 	path = Tools/MaciASL
 	url = git@github.com:acidanthera/MaciASL.git
+[submodule "Tools/gibMacOS"]
+	path = Tools/gibMacOS
+	url = git@github.com:corpnewt/gibMacOS.git
